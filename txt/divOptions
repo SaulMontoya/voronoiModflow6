@@ -1,0 +1,21 @@
+|  cell2d : [icell2d, xc, yc, ncvert, icvert]
+|      * icell2d (integer) is the CELL2D number. Records in the CELL2D block
+|        must be listed in consecutive order from the first to the last. This
+|        argument is an index variable, which means that it should be treated
+|        as zero-based when working with FloPy and Python. Flopy will
+|        automatically subtract one when loading index variables and add one
+|        when writing index variables.
+
+
+|  vertices : [iv, xv, yv]
+|      * iv (integer) is the vertex number. Records in the VERTICES block must
+|        be listed in consecutive order from 1 to NVERT. This argument is an
+|        index variable, which means that it should be treated as zero-based
+|        when working with FloPy and Python. Flopy will automatically subtract
+|        one when loading index variables and add one when writing index
+|        variables.
+
+
+|  nvert : integer
+|      * nvert (integer) is the total number of (x, y) vertex pairs used to
+|        characterize the horizontal configuration of the model grid.

@@ -1,0 +1,19 @@
+pip install pygeos
+pip install pyshp
+
+#variable name convention
+
+2d surface = ...surf
+3d volumen = ...vol
+
+#list or array
+np.array = ...array
+python list = ...list
+
+#word concatenation
+wordConcatenationProcedure
+
+#model variables
+modelName 
+workSpace 
+exeName
